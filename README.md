@@ -49,11 +49,11 @@ cp -r ~/.config ~/.config.bak
 3. Clone and copy:
 
 ```bash
-git clone https://github.com/d1rshan/dot-files.git ~/dot-files
+git clone https://github.com/d1rshan/dots.git ~/dots
 mkdir -p ~/.config
-cp -r ~/dot-files/.config/{hypr,waybar,rofi,kitty,nvim,fastfetch,fish,mako} ~/.config/
-cp ~/dot-files/.config/starship.toml ~/.config/
-cp -r ~/dot-files/.local/bin ~/.local/ 2>/dev/null || true
+cp -r ~/dots/.config/{hypr,waybar,rofi,kitty,nvim,fastfetch,fish,mako} ~/.config/
+cp ~/dots/.config/starship.toml ~/.config/
+cp -r ~/dots/.local/bin ~/.local/ 2>/dev/null || true
 ```
 4. Generate the initial `pywal` cache so `waybar` and `rofi` have colors to read on first launch:
 
@@ -96,11 +96,11 @@ wal -i ~/walls/<your-wallpaper>
 ```
 
 ## Stonks
-<a href="https://www.star-history.com/#d1rshan/dot-files&Date">
+<a href="https://www.star-history.com/#d1rshan/dots&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=d1rshan/dot-files&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=d1rshan/dot-files&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=d1rshan/dot-files&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=d1rshan/dots&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=d1rshan/dots&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=d1rshan/dots&type=Date" />
   </picture>
 </a>
 
